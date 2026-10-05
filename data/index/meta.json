@@ -1,0 +1,8 @@
+{
+  "source": "GeoNames",
+  "dataset": "cities500 + alternateNamesV2",
+  "generatedAt": "2026-09-29T04:51:05.196Z",
+  "count": 235684,
+  "aliasCount": 18659,
+  "countryCount": 252
+}

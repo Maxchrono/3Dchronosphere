@@ -1,0 +1,17 @@
+{
+  "version": "5.1.1",
+  "boundaryPolicy": "Natural Earth default de-facto boundaries without boundary lakes, with Natural Earth India POV geometry for India and a separate disputed-boundary overlay",
+  "worldview": "India POV for India; Natural Earth default de-facto elsewhere",
+  "generatedAt": "2026-09-30T13:39:07.987Z",
+  "assets": {
+    "world50": "/geo/world-50m.topojson",
+    "world10": "/geo/world-10m.topojson",
+    "disputed": "/geo/disputed-boundaries-10m.topojson"
+  },
+  "sources": {
+    "world50": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries_lakes.geojson",
+    "world10": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_lakes.geojson",
+    "indiaPov": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries_ind.geojson",
+    "disputed": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_boundary_lines_disputed_areas.geojson"
+  }
+}

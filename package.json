@@ -1,0 +1,22 @@
+{
+  "name": "chronosphere-global-timezone-engine",
+  "version": "4.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "postinstall": "node scripts/prepare-vendor.mjs",
+    "prestart": "node scripts/prepare-vendor.mjs",
+    "download:data": "node scripts/download-geonames.mjs",
+    "build:index": "node scripts/build-index.mjs",
+    "build:geo": "node scripts/build-geo.mjs",
+    "test": "node scripts/test-globe-v4.mjs",
+    "prepare:vendor": "node scripts/prepare-vendor.mjs"
+  },
+  "dependencies": {
+    "unzipper": "^0.12.3",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3",
+    "three": "^0.160.0",
+    "topojson-client": "^3.1.0"
+  }
+}
