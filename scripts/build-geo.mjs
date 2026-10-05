@@ -61,7 +61,7 @@ const countryKey = f => {
   return p.ADM0_A3_EH || p.ADM0_A3 || p.SOV_A3 || p.ISO_A3_EH || p.ISO_A3 || p.ADMIN || p.NAME;
 };
 
-const MICRO_IGNORE = new Set(['ESB', 'USG', 'BRI', 'GIB', 'CNM', 'KAB', 'WSB', 'SPI', 'BRT', 'UMI', 'CSI', 'PGA', 'CLP', 'BJN', 'SER', 'SCR']);
+const MICRO_IGNORE = new Set(['ESB','USG','BRI','GIB','CNM','KAB','WSB','SPI','BRT','UMI','CSI','PGA','CLP','BJN','SER','SCR']);
 const isRealCountry = f => {
   const p = f?.properties || {};
   if (MICRO_IGNORE.has(String(countryKey(f)))) return false;
