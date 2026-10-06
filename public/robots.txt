@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://chronosphere.example/sitemap.xml
+Sitemap: https://chronosphere-vv3r.onrender.com/sitemap.xml
